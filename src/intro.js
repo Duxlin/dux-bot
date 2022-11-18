@@ -1,0 +1,120 @@
+const intro = `
+Full name:
+ Nickname:
+ Hobby:
+ Age:
+ Gender:
+ Class:
+ Height:
+ Weight :
+ Religion:
+ Blood group:
+ Status:
+ Girlfriend name:
+ Number of ex:
+ former name:
+ father's name:
+ Mother's name :
+ Brother's name:
+ online sister:
+ Older sibling :
+ Number of siblings:
+ sister name:
+ Adek online:
+ Siblings:
+ Number of siblings:
+ Grandpa's name:
+ Grandfather from father:
+ Grandfather from mother:
+ Grandmother's Name:
+ Grandmother from father:
+ Mother's grandmother:
+ Aunt's name:
+ Aunt from father:
+ Aunt of mother:
+ Uncle name:
+ Uncle from father:
+ Uncle from mother:
+ ID CARD:
+ SIM:
+ VEHICLE REGISTRATION:
+ BPKB:
+ KK:
+ Home address:
+ RT:
+ RW:
+ WARD:
+ DISTRICTS:
+ DISTRICTS:
+ CITY:
+ PROVINCE:
+ PLANETS:
+ GALAXY:
+ UNIVERSE:
+ SKY:
+ MAINLAND:
+ OCEAN:
+ ISLAND:
+ OCEAN:
+ SHOE SIZE:
+ CLOTHES SIZE:
+ PANTS SIZE:
+ WAIST WIDTH:
+ HANDS LENGTH:
+ FEET LENGTH:
+ FAVORITE FOOD:
+ FAVORITE DRINK:
+ FAVORITE MOVIE:
+ FAVORITE Sinetron:
+ FAVORITE GAMES:
+ FAVORITE ANIMES:
+ FAVORITE MANGA:
+ FAVORITE MANHUA:
+ FAVORITE MANHWA:
+ YOUTUBE CHANNEL:
+ INSTAGRAM:
+ TWITTER:
+ FACEBOOK:
+ FAVORITE MUSIC:
+ NATURE:
+ ATTITUDE:
+ ZODIAC:
+ DATE OF BIRTH:
+ HP BRAND:
+ MOTOR BRAND:
+ CAR BRAND:
+ HOUSE LEVEL:
+ SCHOOL ADDRESS:
+ Underwear Size:
+ Top size:
+ Head Diameter:
+ Body stats:
+ Belly Diameter:
+ Sleeve Diameter:
+ Thigh Diameter:
+ Knee Diameter:
+ Calf Diameter:
+ hand length:
+ Leg length:
+ Head length:
+ Nose Width:
+ Ambition :
+ Hobby :
+ Type of pet:
+ animal name:
+ House Diameter:
+ wife:
+ hubby:
+ Favorite lolli:
+ Favorite shot:
+ Have how many friends:
+ Online friends:
+ offline friends:
+ Game friends:
+ Schoolmate:
+ Housemates:
+
+ ♡ ㅤ    ❍ㅤ        ⎙ㅤ        ⌲
+ᴸⁱᵏᵉ   ᶜᵒᵐᵐᵉⁿᵗ   ᵈᵒʷⁿˡᵒᵃᵈ     ˢʰᵃʳᵉ
+`
+exports.intro = intro
