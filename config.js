@@ -1,6 +1,6 @@
 
-const fs = require('fs')
-const chalk = require('chalk')
+const fs = import('fs')
+const chalk = import('chalk')
 
 // Website Api
 global.APIs = {
@@ -42,10 +42,10 @@ global.limitawal = {
     free: 100
 }
 global.thumb = fs.readFileSync('./lib/three.jpg')
-let file = require.resolve(__filename)
+let file = import.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
+	delete import.cache[file]
+	import(file)
 })
