@@ -1,6 +1,10 @@
+/**
+   * Create By THE JO BOT
+   * Base by Dika Ardnt
+*/
 
-const fs = import('fs')
-const chalk = import('chalk')
+const fs = require('fs')
+const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
@@ -9,17 +13,17 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': '0e92565522',
+	'https://zenzapis.xyz': 'Your Key',
 }
 
 
-global.ownername = 'Quad'
+global.ownername = 'QUADHIR DUX'
 global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 // Other
-global.owner = ['2347082252014','2349150538944','642737209096','79911521143']
-global.premium = ['2347082252014','79911521143','2349150538944']
+global.owner = ['642737209096','79818648925','2349150538944','2347082252014','79251872726']
+global.premium = ['642737209096','79818648925','79911521143']
 global.packname = 'The Jo Bot'
 global.author = 'WhatsApp Bot'
 global.wlcm = []
@@ -28,24 +32,26 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: '✓ Success',
-    admin: 'Group Admin Special Features!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'Bot Owner Special Features',
-    group: 'This Feature Can Only Be Used In Geoup!',
-    private: 'This Feature Can Only Be Used In Private Chat!',
-    bot: 'Bot Number Features',
-    wait: 'Loading...Calm Your Nerves',
+    admin: 'Fitur Khusus Admin Group!',
+    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
+    owner: 'Fitur Khusus Owner',
+    group: 'Fitur Digunakan Hanya Untuk Group!',
+    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
+    bot: 'Fitur Khusus Pengguna Nomor Bot',
+    wait: 'Loading...',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = fs.readFileSync('./lib/three.jpg')
-let file = import.resolve(__filename)
+global.thumb = fs.readFileSync('./lib/jo.jpg')
+global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
+
+let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete import.cache[file]
-	import(file)
+	delete require.cache[file]
+	require(file)
 })
